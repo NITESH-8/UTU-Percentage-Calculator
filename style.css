@@ -1,0 +1,24 @@
+header {
+  /* display: block; */
+  margin: 0;
+  text-align: center;
+  background-color: rgb(1, 1, 39);
+  height: 100px;
+  color: white;
+  font-size: 50px;
+}
+.wrapper-year-card {
+  display: inline-flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  margin: 30px;
+}
+.year-card {
+  /* margin: 2px; */
+}
+.card-title {
+  margin-left: 30%;
+}
+.card {
+  /* width: 400px; */
+}
