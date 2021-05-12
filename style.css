@@ -1,24 +1,31 @@
 header {
-  /* display: block; */
-  margin: 0;
   text-align: center;
   background-color: rgb(1, 1, 39);
-  height: 100px;
   color: white;
-  font-size: 50px;
+  padding: 14px 0;
 }
-.wrapper-year-card {
-  display: inline-flex;
-  flex-wrap: wrap;
-  /* align-items: center; */
-  margin: 30px;
+
+.year-container {
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
-.year-card {
-  /* margin: 2px; */
+
+h1,
+h2 {
+  margin-bottom: 0 !important;
 }
-.card-title {
-  margin-left: 30%;
+
+@media (max-width: 1200px) {
+  .year-container {
+    grid-template-columns: repeat(2, auto);
+  }
 }
-.card {
-  /* width: 400px; */
+@media (max-width: 600px) {
+  .year-container {
+    grid-template-columns: repeat(1, auto);
+  }
 }
