@@ -1,3 +1,8 @@
+body {
+  font-family: "Signika Negative", sans-serif;
+  letter-spacing: 0.3px;
+}
+
 header {
   text-align: center;
   background-color: rgb(1, 1, 39);
@@ -26,13 +31,18 @@ header {
 
 h1,
 h2,
-h5 {
+h5,
+h6 {
   margin-bottom: 0 !important;
 }
 
 .result {
   background-color: #54856e;
   color: white;
+}
+
+.sem {
+  background-color: #f9f7f7;
 }
 
 @media (max-width: 1200px) {
