@@ -58,4 +58,33 @@ buttonCal.addEventListener("click", function () {
     1000;
 
   console.log(FinalPercentageObtained);
+
+  //Result for Each SEMESTER
+  document.querySelector("#Result-sem1").textContent = semester1.toFixed(2);
+  document.querySelector("#Result-sem2").textContent = semester2.toFixed(2);
+  document.querySelector("#Result-sem3").textContent = semester3.toFixed(2);
+  document.querySelector("#Result-sem4").textContent = semester4.toFixed(2);
+  document.querySelector("#Result-sem5").textContent = semester5.toFixed(2);
+  document.querySelector("#Result-sem6").textContent = semester6.toFixed(2);
+  document.querySelector("#Result-sem7").textContent = semester7.toFixed(2);
+  document.querySelector("#Result-sem8").textContent = semester8.toFixed(2);
+
+  //Result for Each Year
+  document.querySelector("#Result-year1").textContent = firstYear.toFixed(2);
+  document.querySelector("#Result-year2").textContent = SecondYear.toFixed(2);
+  document.querySelector("#Result-year3").textContent = ThirdYear.toFixed(2);
+  document.querySelector("#Result-year4").textContent = forthYear.toFixed(2);
+
+  //Result for Each Year(Aggerate)
+  document.querySelector("#Result-year1Aggr").textContent =
+    aggrfirstYear.toFixed(2);
+  document.querySelector("#Result-year2Aggr").textContent =
+    aggrSecondYear.toFixed(2);
+  document.querySelector("#Result-year3Aggr").textContent =
+    aggrThirdYear.toFixed(2);
+  document.querySelector("#Result-year4Aggr").textContent =
+    aggrforthYear.toFixed(2);
+
+  document.querySelector("#aggrfinalResult").textContent =
+    FinalPercentageObtained.toFixed(2);
 });
