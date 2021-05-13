@@ -9,6 +9,12 @@ header {
   color: white;
   padding: 14px 0;
 }
+footer {
+  text-align: center;
+  background-color: rgb(1, 1, 39);
+  color: white;
+  padding: 14px 0;
+}
 
 .year-container {
   padding: 0 20px;
