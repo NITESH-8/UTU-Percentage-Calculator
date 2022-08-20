@@ -21,25 +21,25 @@ buttonCal.addEventListener("click", function () {
   // For 1st year
   let semester1 = (sem1 / totalsem1) * 100;
   let semester2 = (sem2 / totalsem2) * 100;
-  let firstYear = (semester1 + semester2) / 2; //First year  (100%)
+  let firstYear = (sem1 + sem2) / 2; //First year  (100%)
   let aggrfirstYear = firstYear * 0.25; //First year (25%)
 
   // For 2nd year
   let semester3 = (sem3 / totalsem3) * 100;
   let semester4 = (sem4 / totalsem4) * 100;
-  let SecondYear = (semester3 + semester4) / 2; // SecondYear  (100%)
+  let SecondYear = (sem3 + sem4) / 2; // SecondYear  (100%)
   let aggrSecondYear = SecondYear * 0.5; // SecondYear  (25%)
 
   // For 3rd year
   let semester5 = (sem5 / totalsem5) * 100;
   let semester6 = (sem6 / totalsem6) * 100;
-  let ThirdYear = (semester5 + semester6) / 2; //ThirdYear  (100%)
+  let ThirdYear = (sem5 + sem6) / 2; //ThirdYear  (100%)
   let aggrThirdYear = ThirdYear * 0.75; //ThirdYear  (25%)
 
   // For 4st year
   let semester7 = (sem7 / totalsem7) * 100;
   let semester8 = (sem8 / totalsem8) * 100;
-  let forthYear = (semester7 + semester8) / 2; // forthYear  (100%)
+  let forthYear = (sem7 + sem8) / 2; // forthYear  (100%)
   let aggrforthYear = forthYear * 1; // forthYear  (25%)
 
   //Total (denominator) according to UTU
